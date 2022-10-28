@@ -1275,6 +1275,26 @@ a {
   display: -ms-flexbox;
   display: flex;
 }
+
+.footer__social-link {
+   background-size: 54px 54px;
+    background-position:  center center;
+    background-repeat: no-repeat;
+    transition: fill 0.3s ease-in-out;
+}
+
+.footer__social-link--youtube {
+  background-image: url("../img/youtube.svg");
+}
+
+.footer__social-link--vk {
+  background-image: url("../img/vk.svg");
+}
+
+.footer__social-link--ok {
+  background-image: url("../img/ok.svg");
+}
+
 .footer__social-item:not(:last-child) {
   margin-right: 10px;
 }
