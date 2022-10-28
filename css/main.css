@@ -963,8 +963,18 @@ a {
 }
 
 .recipes {
+  padding-bottom: 70px;
   background-color: var(--dark-brown);
 }
+
+.recipes__item {
+   display: flex;
+   flex-grow: 1;
+   flex-direction: column;
+   align-items: flex-start;
+   background-size: cover;
+}
+
 .recipes__nav {
   padding-bottom: 65px;
 }
@@ -1027,7 +1037,7 @@ a {
 }
 .recipes__image {
   border-radius: 20px;
-  max-height: 500px;
+  height: 400px;
   margin-bottom: 35px;
 }
 
@@ -1038,7 +1048,10 @@ a {
   .swiper-slide {
     width: 290px;
   }
-}
+  
+  .recipes__image {
+    height: 300px;
+  }
 
 .order {
   padding-bottom: 70px;
